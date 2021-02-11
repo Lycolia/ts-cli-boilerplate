@@ -1,0 +1,72 @@
+# History
+
+- 0.4.0
+  - Translate JS -> TS
+- 0.3.0-3
+  - update readme
+- 0.3.0-2
+  - update readme
+- 0.3.0-1
+  - update readme
+- 0.3.0
+  - update readme, add testing
+- 0.2.2-3
+  - bugfix
+- 0.2.2-2
+  - bugfix
+- 0.2.2-1
+  - refactoring
+- 0.2.2
+  - Windows resupported
+- 0.2.1-1
+  - ver++
+- 0.2.1
+  - Windows is no longer supported
+- 0.2.0-3
+  - Remove function npm init for windows (reason npm bug)
+- 0.2.0-2
+  - ver++
+- 0.2.0-1
+  - ver++
+- 0.2.0
+  - Add Yeoman like generator
+- 0.1.9
+  - Pass
+- 0.1.8
+  - Fix [npm for windows bug issue](https://github.com/npm/cli/issues/1290)
+- 0.1.7
+  - Add function install node modules
+- 0.1.6-1
+  - Fix degrade
+- 0.1.6
+  - Add `package.json` `keywords`
+- 0.1.5
+  - Forgot, Not in history
+- 0.1.4
+  - Forgot, Not in history
+- 0.1.3
+  - Add junk cleaner
+- 0.1.2
+  - Update log function and fix windows crash issue
+- 0.1.1
+  - Refactoring
+- 0.1.0
+  - Add auto-commit function
+- 0.0.9
+  - Update readme cleaner
+- 0.0.8
+  - Refactoring
+- 0.0.7
+  - Increase version
+- 0.0.6
+  - Remove linter, prettier and refactoring
+- 0.0.5
+  - Increase version
+- 0.0.4
+  - Add Readme cleaner
+- 0.0.3
+  - Add function for create git repository
+- 0.0.2
+  - Project name changed
+- 0.0.1
+  - Created
