@@ -14,6 +14,8 @@
     - run cli
   - `npm run dev`
     - run force debug cli
+  - `npm run lint`
+    - run lint
   - `npm run build`
     - run tsc
       - this only development, not production
