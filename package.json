@@ -2,6 +2,8 @@
   "name": "ts-cli-boilerplate",
   "version": "0.1.0",
   "description": "TypeScript CLI boilerplate",
+  "author": "Lycolia",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Lycolia/ts-cli-boilerplate"
@@ -17,8 +19,6 @@
     "build": "npx tsc",
     "test": "npx jest"
   },
-  "author": "Lycolia",
-  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^7.0.0",
