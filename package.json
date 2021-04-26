@@ -1,6 +1,6 @@
 {
   "name": "ts-cli-boilerplate",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "TypeScript CLI boilerplate",
   "author": "Lycolia",
   "license": "MIT",
@@ -15,7 +15,7 @@
   "scripts": {
     "start": "ts-node ./src/index.ts",
     "dev": "node -r ts-node/register --inspect-brk ./src/index.ts",
-    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
+    "lint": "tsc --noEmit && eslint --fix-dry-run",
     "build": "tsc",
     "test": "jest"
   },
