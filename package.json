@@ -1,24 +1,24 @@
 {
   "name": "ts-cli-boilerplate",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "TypeScript CLI boilerplate",
+  "author": "Lycolia",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Lycolia/ts-cli-boilerplate"
   },
   "bin": {
-    "your_command_name_here": "./dist/src/index.js"
+    "your_command_name_here": "./dist/index.js"
   },
-  "main": "./dist/src/index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "start": "npx ts-node ./src/index.ts",
+    "start": "ts-node ./src/index.ts",
     "dev": "node -r ts-node/register --inspect-brk ./src/index.ts",
-    "lint": "npx tsc --noEmit && npx eslint \"**/*.{js,ts}\" --quiet --fix",
-    "build": "npx tsc",
-    "test": "npx jest"
+    "lint": "tsc --noEmit && eslint --fix-dry-run",
+    "build": "tsc",
+    "test": "jest"
   },
-  "author": "Lycolia",
-  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^7.0.0",
