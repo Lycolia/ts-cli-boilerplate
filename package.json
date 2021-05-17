@@ -9,9 +9,9 @@
     "url": "https://github.com/Lycolia/ts-cli-boilerplate"
   },
   "bin": {
-    "your_command_name_here": "./dist/src/index.js"
+    "your_command_name_here": "./dist/index.js"
   },
-  "main": "./dist/src/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "start": "ts-node ./src/index.ts",
     "dev": "node -r ts-node/register --inspect-brk ./src/index.ts",
