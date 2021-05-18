@@ -1,6 +1,6 @@
 {
   "name": "ts-cli-boilerplate",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "TypeScript CLI boilerplate",
   "author": "Lycolia",
   "license": "MIT",
@@ -19,19 +19,9 @@
     "build": "tsc",
     "test": "jest"
   },
-  "dependencies": {
-    "chalk": "^4.1.0",
-    "commander": "^7.0.0",
-    "prompts": "^2.3.2",
-    "validate-npm-package-name": "^3.0.0"
-  },
   "devDependencies": {
-    "@types/chalk": "^2.2.0",
-    "@types/commander": "^2.12.2",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.0.2",
-    "@types/prompts": "^2.0.9",
-    "@types/validate-npm-package-name": "^3.0.2",
     "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.23.0",
     "eslint": "^7.26.0",
