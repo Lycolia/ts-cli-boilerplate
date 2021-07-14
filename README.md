@@ -22,4 +22,4 @@
   - `npm run test`
     - run jest
   - `npm run test`
-    - get coverage
+    - get coverage report
