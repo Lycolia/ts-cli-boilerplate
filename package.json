@@ -1,6 +1,6 @@
 {
   "name": "ts-cli-boilerplate",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "description": "TypeScript CLI boilerplate",
   "author": "Lycolia",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "dev": "node -r ts-node/register --inspect-brk ./src/index.ts",
     "lint": "tsc --noEmit && eslint --fix-dry-run",
     "build": "tsc",
-    "test": "jest",
+    "test": "jest --watch",
     "coverage": "jest --coverage"
   },
   "devDependencies": {
@@ -29,6 +29,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jest": "^24.3.6",
     "jest": "^27.0.6",
+    "jest-watch-typeahead": "^0.6.4",
     "prettier": "^2.3.2",
     "ts-jest": "^27.0.3",
     "ts-node": "^10.1.0",
