@@ -3,7 +3,7 @@
     "target": "es2020",
     "module": "esnext",
     "allowJs": false,
-    "checkJs": true,
+    "checkJs": false,
     "sourceMap": true,
     "outDir": "./dist",
     "strict": true,
