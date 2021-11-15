@@ -23,4 +23,4 @@
   - `npm run test`
     - get coverage report
   - `npm run coverage`
-    - get coverage report
+    - ~~get coverage report~~
