@@ -1,8 +1,10 @@
 {
   "sourceMaps": true,
+  "module": {
+    "type": "commonjs"
+  },
   "jsc": {
     "parser": {
-      "target": "esnext",
       "syntax": "typescript",
       "tsx": false,
       "decorators": false,
