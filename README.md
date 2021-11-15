@@ -9,7 +9,6 @@
 ## How to using
 
 - Lunch commands
-
   - `npm start`
     - run cli
   - `npm run dev`
@@ -20,6 +19,8 @@
     - run tsc
       - this only development, not production
   - `npm run test`
-    - Launches the test runner by watch mode
+    - launches test runner by watch mode
   - `npm run test`
+    - get coverage report
+  - `npm run coverage`
     - get coverage report
