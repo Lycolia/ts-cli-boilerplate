@@ -1,0 +1,12 @@
+{
+  "sourceMaps": true,
+  "jsc": {
+    "parser": {
+      "target": "esnext",
+      "syntax": "typescript",
+      "tsx": false,
+      "decorators": false,
+      "dynamicImport": false
+    }
+  }
+}
