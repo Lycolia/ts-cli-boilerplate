@@ -20,7 +20,5 @@
       - this only development, not production
   - `npm run test`
     - launches test runner by watch mode
-  - `npm run test`
-    - get coverage report
   - `npm run coverage`
     - ~~get coverage report~~
