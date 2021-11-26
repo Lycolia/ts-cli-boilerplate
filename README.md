@@ -13,8 +13,8 @@
     - run cli
   - `npm run dev`
     - run force debug cli
-  - `npm run lint`
-    - run lint
+  - `npm run type-check`
+    - run type-check
   - `npm run build`
     - run swc
       - this only development, not production
