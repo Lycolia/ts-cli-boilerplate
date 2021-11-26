@@ -16,7 +16,7 @@
   - `npm run lint`
     - run lint
   - `npm run build`
-    - run tsc
+    - run swc
       - this only development, not production
   - `npm run test`
     - launches test runner by watch mode
