@@ -4,7 +4,7 @@
 
 ## Required
 
-- Node.js 16+
+- Node.js 14+
 
 ## How to using
 
@@ -13,14 +13,12 @@
     - run cli
   - `npm run dev`
     - run force debug cli
-  - `npm run lint`
-    - run lint
+  - `npm run type-check`
+    - run type-check
   - `npm run build`
-    - run tsc
+    - run swc
       - this only development, not production
   - `npm run test`
     - launches test runner by watch mode
-  - `npm run test`
-    - get coverage report
   - `npm run coverage`
     - ~~get coverage report~~
