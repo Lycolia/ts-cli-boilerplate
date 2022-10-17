@@ -1,5 +1,7 @@
 {
-  "exclude": [".spec.ts"],
+  "exclude": [
+    ".spec.ts"
+  ],
   "sourceMaps": true,
   "module": {
     "type": "commonjs"
@@ -11,6 +13,15 @@
       "tsx": false,
       "decorators": false,
       "dynamicImport": false
+    },
+    "baseUrl": ".",
+    "paths": {
+      "src/*": [
+        "src/*"
+      ],
+      "package.json": [
+        "package.json"
+      ]
     }
   }
 }

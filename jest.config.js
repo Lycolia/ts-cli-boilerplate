@@ -23,6 +23,11 @@ module.exports = {
             decorators: false,
             dynamicImport: false,
           },
+          baseUrl: '.',
+          paths: {
+            'src/*': ['src/*'],
+            'package.json': ['package.json'],
+          },
         },
       },
     ],
