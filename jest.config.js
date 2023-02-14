@@ -1,5 +1,5 @@
 module.exports = {
-  clearMocks: true,
+  resetMocks: true,
   coverageDirectory: 'coverage',
   coverageProvider: 'v8',
   testEnvironment: 'node',
@@ -35,6 +35,5 @@ module.exports = {
   watchPlugins: [
     'jest-watch-typeahead/filename',
     'jest-watch-typeahead/testname',
-  ],
-  silent: false,
+  ]
 };
