@@ -4,6 +4,9 @@ module.exports = {
   coverageProvider: 'v8',
   testEnvironment: 'node',
   roots: ['<rootDir>/src/'],
+  moduleNameMapper: {
+    'src/(.*)$': '<rootDir>/src/$1',
+  },
   moduleFileExtensions: ['ts', 'js'],
   collectCoverageFrom: ['src/**/*.{ts,js}'],
   testPathIgnorePatterns: ['<rootDir>[/\\\\](node_modules|dist)[/\\\\]'],
@@ -35,5 +38,5 @@ module.exports = {
   watchPlugins: [
     'jest-watch-typeahead/filename',
     'jest-watch-typeahead/testname',
-  ]
+  ],
 };
