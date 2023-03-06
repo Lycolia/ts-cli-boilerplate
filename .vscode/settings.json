@@ -13,11 +13,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.alwaysShowStatus": true,
-  "eslint.validate": [
-    "javascript",
-    "typescript"
-  ],
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.tabSize": 2
@@ -27,7 +22,6 @@
   "[typescript]": {
     "editor.tabSize": 2
   },
-  "typescript.suggest.paths": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "typescript.tsdk": "node_modules/typescript/lib",
