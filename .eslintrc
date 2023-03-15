@@ -5,8 +5,8 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/style",
     "plugin:jest/recommended",
-    "prettier",
-    "@lycolia/eslint-config"
+    "@lycolia/eslint-config",
+    "prettier"
   ],
   "plugins": [
     "@typescript-eslint"
