@@ -8,9 +8,7 @@
     "@lycolia/eslint-config",
     "prettier"
   ],
-  "plugins": [
-    "@typescript-eslint"
-  ],
+  "plugins": ["@typescript-eslint"],
   "parserOptions": {
     "project": "./tsconfig.json"
   }
