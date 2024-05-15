@@ -21,4 +21,4 @@
   - `npm run test`
     - launches test runner by watch mode
   - `npm run coverage`
-    - ~~get coverage report~~
+    - get coverage report
