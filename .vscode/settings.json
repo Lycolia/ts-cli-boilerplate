@@ -1,4 +1,3 @@
-// Place your settings in this file to overwrite default and user settings.
 {
   "search.exclude": {
     "**/node_modules": true,
@@ -28,5 +27,6 @@
   "typescript.referencesCodeLens.enabled": true,
   "typescript.validate.enable": true,
   "typescript.preferences.importModuleSpecifier": "relative",
-  "eslint.workingDirectories": [{ "mode": "auto" }]
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.experimental.useFlatConfig": true
 }
