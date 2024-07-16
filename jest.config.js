@@ -5,7 +5,7 @@ module.exports = {
   coverageProvider: 'v8',
   testEnvironment: 'node',
   roots: ['<rootDir>/src/'],
-  moduleFileExtensions: ['ts', 'js'],
+  moduleFileExtensions: ['ts', 'js', 'json'],
   collectCoverageFrom: ['src/**/*.{ts,js}'],
   coveragePathIgnorePatterns: ['types/'],
   testPathIgnorePatterns: ['(node_modules|dist)'],
