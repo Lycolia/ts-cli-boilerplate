@@ -2,23 +2,17 @@
 
 - {description}
 
-## Required
+## 動作要件
 
 - Node.js 22+
 
-## How to using
+## npm scripts
 
-- Lunch commands
-  - `npm start`
-    - run cli
-  - `npm run dev`
-    - run force debug cli
-  - `npm run type-check`
-    - run type-check
-  - `npm run build`
-    - run swc
-      - this only development, not production
-  - `npm run test`
-    - launches test runner by watch mode
-  - `npm run coverage`
-    - get coverage report
+| コマンド           | 役割                                 |
+| ------------------ | ------------------------------------ |
+| `npm start`        | プログラムを起動する                 |
+| `npm run dev`      | プログラムをデバッグモードで起動する |
+| `npm run lint`     | 型チェックとLintを実行する           |
+| `npm run build`    | ビルドする                           |
+| `npm run test`     | テストする                           |
+| `npm run coverage` | テストカバレッジの取得               |
