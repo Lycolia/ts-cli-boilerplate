@@ -18,7 +18,7 @@ if [ $? != 0 ]; then
   print_exit "Lintに失敗しました。" 3
 fi
 
-npm t
+npm run headless-test
 if [ $? != 0 ]; then
   print_exit "テストに失敗しました。" 4
 fi

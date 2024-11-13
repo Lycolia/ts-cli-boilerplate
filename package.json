@@ -19,6 +19,7 @@
     "build-ts": "rm -Rf dist/ && swc src/ --config-file .swcrc_build -d dist/ --strip-leading-paths",
     "build": "npm run lint && npm run build-ts",
     "test": "jest --watch",
+    "headless-test": "jest --colors",
     "coverage": "jest --coverage",
     "postinstall": "git config core.hooksPath .git-hooks"
   },
