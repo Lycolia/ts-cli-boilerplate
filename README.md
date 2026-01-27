@@ -4,7 +4,7 @@
 
 ## 動作要件
 
-- Node.js 22+
+- Node.js 24+
 
 ## npm scripts
 
