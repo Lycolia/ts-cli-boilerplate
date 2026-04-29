@@ -5,7 +5,6 @@
     "allowJs": false,
     "checkJs": false,
     "sourceMap": true,
-    "outDir": "./dist",
     "strict": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
